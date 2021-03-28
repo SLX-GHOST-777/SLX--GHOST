@@ -1,0 +1,695 @@
+
+
+                 [91m [39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m█[39m[96m█[39m[96m╗[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m╔[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m╚[39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m█[39m[95m█[39m[95m║[39m[95m [39m[94m [39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m [39m[91m╚[39m[91m═[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m╚[39m[95m═[39m[95m╝[39m[95m [39m[94m [39m[94m╚[39m[94m═[39m[94m╝[39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+
+
+
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m [39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m╔[39m[96m═[39m[96m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m╚[39m[95m═[39m[95m═[39m[95m═[39m[94m═[39m[94m═[39m[94m╝[39m[94m [39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m
+
+
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:14:13 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:14:16 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:35:51 menu do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:36:58 musica do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:37:28 Message do leke 558186761207 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558186761207
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:37:54 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:37:56 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:40:21 Message do leke 558186761207 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558186761207
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:40:25 Message do leke 558186761207 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558186761207
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:43:23 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:43:24 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:43:57 menu do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:45:35 linkgp do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:46:20 menu do leke 51902929060 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:47:50 menu do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:48:26 Message do leke 558186761207 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558186761207
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:48:43 sticker do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:49:22 sticker do leke 51902929060 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:50:04 figu do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:50:23 figu do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1307.webp
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:50:36 Message do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:56:37 linkgp do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:56:45 Message do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:58:53 mia do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:59:08 modonsfw do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:59:24 modonsfw do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 20:59:30 Message do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 258855742299
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:59:35 porno do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:59:44 loli1 do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 20:59:59 loli1 do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:00:03 Message do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:09 loli2 do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:00:15 Message do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 258855742299
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:21 animr do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:23 anime do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:25 porno do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:28 malkova do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:00:28 Message do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:00:29 menu do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:01:13 onich do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:01:15 banir do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:01:32 Message do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 258855742299
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:02:34 lolih do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+Error : TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:02:53 onich do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:02:54 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:03:06 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:03:24 Message do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:03:24 fdp do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:03:40 sakura do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:04:36 xvideos do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 2
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:04:50 xvideos do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+Error : FetchError: invalid json response body at https://api.arugaz.my.id/api/media/xvideo/search?query=%20[malkova] reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:05:20 gay1 do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Error : FetchError: invalid json response body at https://api.arugaz.my.id/api/media/xvideo/search?query=[malkova] reason: Unexpected token < in JSON at position 0
+Error : FetchError: invalid json response body at https://arugaz.herokuapp.com/api/howgay reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:05:58 Message do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:06:03 Message do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:06:14 gay do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:07:06 gay do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:07:07 Message do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:07:16 Message do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:07:20 Message do leke 258855742299 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 258855742299
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:08:32 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:08:49 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:10:11 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:10:24 figu do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 6757.webp
+Error : TypeError: this.isZero is not a function
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:11:17 menu do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:11:34 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:11:39 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:11:46 figu do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 9564.webp
+Finish
+ERROR [2021-03-28 14:11:48.464 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 400 (Bad Request)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:00 Message do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:06 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:12:08 bomdia do leke 51902929060 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:27 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:35 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:44 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:12:46 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:13:10 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:13:11 meme do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:13:41 Message do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:13:44 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:13:48 meme do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:13:48 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:13:56 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:14:13 meme do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:31 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:35 Message do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:43 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:49 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:50 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:14:54 meme do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:14:59 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:00 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:05 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:09 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:17 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:15:18 meme do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 2
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:27 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:15:41 darkjokes do leke 559591632152 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:45 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:50 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:55 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:15:59 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:00 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:08 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:30 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:37 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:53 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:16:59 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:17:13 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:17:16 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:17:21 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:17:25 menu do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:17:37 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:17:44 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:01 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:18 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:19 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:19 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:23 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:36 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:18:44 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:03 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:10 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:19 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:19:22 figu do leke 51970528211 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5016.webp
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:27 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:19:36 hub do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:19:41 porno do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:45 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:50 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:19:58 xvideos do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 2
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:19:58 Message do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:07 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:08 Message do leke 51902929060 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51902929060
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:12 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:25 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:29 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+Error : FetchError: invalid json response body at https://api.arugaz.my.id/api/media/xvideo/search?query=leticia%20shirayuki reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:36 Message do leke 51970528211 in ~ꪶꦿGrupo del coleꪶ𖤐ꫂ args : 0
+[ERROR] eita bixo comando não registrado de 51970528211
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:36 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:20:38 figu do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5530.webp
+Error : TypeError: this.isZero is not a function
+Finish
+ERROR [2021-03-28 14:20:40.623 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:46 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:20:56 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:21:04 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:21:22 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:21:44 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:21:57 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:22:12 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:22:22 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:22:30 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:22:41 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:22:59 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:23:07 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:23:09 figu do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1631.webp
+Error : TypeError: this.isZero is not a function
+Finish
+ERROR [2021-03-28 14:23:12.834 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:23:43 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:24:35 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:24:40 figu do leke 559188809717 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 4351.webp
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:24:48 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:11 Message do leke 559188809717 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 559188809717
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:25 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:25 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:34 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:25:49 figu do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 8597.webp
+Error : TypeError: this.isZero is not a function
+Finish
+ERROR [2021-03-28 14:25:51.777 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:52 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:25:57 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:26:08 figu do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 314.webp
+Error : TypeError: this.isZero is not a function
+Finish
+ERROR [2021-03-28 14:26:12.914 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:26:16 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:26:25 Message do leke 556984324278 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556984324278
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:26:29 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:26:39 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:26:40 figu do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 3444.webp
+Error : TypeError: this.isZero is not a function
+Finish
+ERROR [2021-03-28 14:26:45.633 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:26:55 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:27:24 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:27:47 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:28:13 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:28:27 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:28:36 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:28:40 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:28:55 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:02 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:06 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:09 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:20 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:31 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:39 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:42 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:46 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:48 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:52 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:29:57 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:11 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:15 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:16 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:30:26 gay do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:27 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:31 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:37 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:45 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:52 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:55 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:30:56 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:30:57 gay do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:12 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:14 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:14 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:24 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:35 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:36 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:41 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:53 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:31:54 Message do leke 5518997668141 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518997668141
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:08 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:20 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:33 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:43 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:53 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:54 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:32:56 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:05 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:15 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:33:16 f do leke 13343759053 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 8064.webp
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:28 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:31 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:35 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:41 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:42 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:48 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:49 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:33:58 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:34:13 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:34:18 f do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:34:19 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1709.webp
+Finish
+ERROR [2021-03-28 14:34:20.637 +0000] (4110): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:34:52 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:34:59 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:03 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:11 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:14 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:26 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:29 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:35:39 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:36:27 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:36:38 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:36:46 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:36:58 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:37:04 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:39:29 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:39:37 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:39:43 Message do leke 5518996620996 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:40:30 Message do leke 5518998251755 in Peppa piG args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:40:49 Message do leke 5518996620996 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:40:52 Message do leke 5518996620996 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:41:28 Message do leke 5518998251755 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:41:45 Message do leke 5518996620996 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:41:51 Message do leke 5518996620996 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518996620996
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:41:52 figu do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1541.webp
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:43:24 Message do leke 5518998251755 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:43:28 Message do leke 5518998251755 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518998251755
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:43:35 menu do leke 14383001492 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:48:25 Message do leke 13343759053 args : 0
+[ERROR] eita bixo comando não registrado de 13343759053
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:48:50 loli do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+
+
+                 [91m [39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m█[39m[96m█[39m[96m╗[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m╔[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m╚[39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m█[39m[95m█[39m[95m║[39m[95m [39m[94m [39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m [39m[91m╚[39m[91m═[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m╚[39m[95m═[39m[95m╝[39m[95m [39m[94m [39m[94m╚[39m[94m═[39m[94m╝[39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+
+
+
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m [39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m╔[39m[96m═[39m[96m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m╚[39m[95m═[39m[95m═[39m[95m═[39m[94m═[39m[94m═[39m[94m╝[39m[94m [39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m
+
+
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:49:09 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:49:26 Message do leke 13343759053 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 13343759053
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:49:32 Message do leke 13343759053 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 13343759053
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:49:41 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:50:08 Message do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:50:14 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:50:17 stick do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:50:22 figu do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5455.webp
+Finish
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:50:38 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:50:43 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:50:49 Message do leke 558196543988 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558196543988
+ERROR [2021-03-28 14:51:29.672 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 408 (Client timeout)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:53:47 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:55:24 figu do leke 5511910906881 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:55:35 f do leke 5511910906881 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:56:26 figu do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 9132.webp
+Finish
+Error : TypeError: this.isZero is not a function
+Error : Error: ENOENT: no such file or directory, open './assets/caussf.mp3'
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:57:11 Message do leke 5511910906881 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 5511910906881
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:57:18 figu do leke 558291491110 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 7091.webp
+Finish
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:57:40 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:57:49 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:57:52 Message do leke 556584118762 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556584118762
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:57:56 f do leke 558291491110 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 7837.webp
+Finish
+ERROR [2021-03-28 14:57:57.075 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 21:58:08 Message do leke 558291491110 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558291491110
+ERROR [2021-03-28 14:58:24.413 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 408 (Client timeout)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 21:59:31 f do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1324.webp
+Finish
+ERROR [2021-03-28 14:59:32.377 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 400 (Bad Request)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:00:00 f do leke 558291491110 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 6717.webp
+Finish
+ERROR [2021-03-28 15:00:01.316 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:01:25 f do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:02:02 f do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 6435.webp
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:02:20 Message do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 557391350369
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:03:38 f do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 2881.webp
+Finish
+ERROR [2021-03-28 15:03:39.977 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (RequestError: ENOENT: no such file or directory, open '/data/data/com.termux/files/usr/tmp/stickerMessage3EB09B32460D.enc') , retrying...
+    class: "Baileys"
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:04:00 f do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 899.webp
+Finish
+ERROR [2021-03-28 15:04:01.023 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:04:25 Message do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 557391350369
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:04:26 Message do leke 557391350369 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 557391350369
+ERROR [2021-03-28 15:04:45.321 +0000] (13293): Error in uploading to media-gru1-1.cdn.whatsapp.net (HTTPError: Response code 408 (Client timeout)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:05:38 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:12:56 Message do leke 558591260003 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558591260003
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:13:50 porn do leke 5517997946542 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 5517997946542
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:13:56 figu do leke 558591260003 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 8238.webp
+Error : TypeError: this.isZero is not a function
+Finish
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:14:18 Message do leke 559294797333 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 559294797333
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:14:22 Message do leke 558591260003 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 558591260003
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 28/03 22:15:55 Message do leke 15174803665 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 15174803665
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 28/03 22:16:08 figu do leke 15174803665 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 6909.webp
+Finish
+ERROR [2021-03-28 15:16:10.620 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function

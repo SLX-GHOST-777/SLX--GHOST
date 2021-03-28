@@ -1,0 +1,71 @@
+- Quase la...
+- Conectado leke
+TypeError: Cannot read property 'url' of undefined
+    at Object.getStream (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/Utils.js:330:14)
+    at Object.encryptedStream (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/Utils.js:379:44)
+    at WAConnection.prepareMessageMedia (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/6.MessagesSend.js:133:106)
+    at WAConnection.prepareMessageContent (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/6.MessagesSend.js:95:32)
+    at WAConnection.prepareMessage (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/6.MessagesSend.js:30:36)
+    at WAConnection.sendMessage (/data/data/com.termux/files/home/Caussx/node_modules/@adiwajshing/baileys/lib/WAConnection/6.MessagesSend.js:24:38)
+    at WAConnection.<anonymous> (/data/data/com.termux/files/home/Caussx/index.js:3622:48)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+Error: marker was not found
+    at decodeScan (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:344:15)
+    at constructor.parse (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:804:29)
+    at Object.decode [as image/jpeg] (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:1096:11)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/utils/image-bitmap.js:196:53)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:431:32)
+    at /data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:373:15
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3) {
+  methodName: 'constructor'
+}
+Error: marker was not found
+    at decodeScan (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:344:15)
+    at constructor.parse (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:804:29)
+    at Object.decode [as image/jpeg] (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:1096:11)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/utils/image-bitmap.js:196:53)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:431:32)
+    at /data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:373:15
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3) {
+  methodName: 'constructor'
+}
+Error: marker was not found
+    at decodeScan (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:344:15)
+    at constructor.parse (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:804:29)
+    at Object.decode [as image/jpeg] (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:1096:11)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/utils/image-bitmap.js:196:53)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:431:32)
+    at /data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:373:15
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3) {
+  methodName: 'constructor'
+}
+Error: marker was not found
+    at decodeScan (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:344:15)
+    at constructor.parse (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:804:29)
+    at Object.decode [as image/jpeg] (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:1096:11)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/utils/image-bitmap.js:196:53)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:431:32)
+    at /data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:373:15
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3) {
+  methodName: 'constructor'
+}
+Error: marker was not found
+    at decodeScan (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:344:15)
+    at constructor.parse (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:804:29)
+    at Object.decode [as image/jpeg] (/data/data/com.termux/files/home/Caussx/node_modules/jpeg-js/lib/decoder.js:1096:11)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/utils/image-bitmap.js:196:53)
+    at Jimp.parseBitmap (/data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:431:32)
+    at /data/data/com.termux/files/home/Caussx/node_modules/@jimp/core/dist/index.js:373:15
+    at FSReqCallback.readFileAfterClose [as oncomplete] (internal/fs/read_file_context.js:63:3) {
+  methodName: 'constructor'
+}
+SyntaxError: Unexpected token < in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at IncomingMessage.<anonymous> (/data/data/com.termux/files/home/Caussx/node_modules/lolis.life/index.js:19:28)
+    at IncomingMessage.emit (events.js:327:22)
+    at endReadableNT (internal/streams/readable.js:1327:12)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+- Quase la...
+- Conectado leke
+- Quase la...
+- Conectado leke
