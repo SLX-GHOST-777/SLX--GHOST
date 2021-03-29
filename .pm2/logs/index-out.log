@@ -693,3 +693,905 @@ Finish
 ERROR [2021-03-28 15:16:10.620 +0000] (13293): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
     class: "Baileys"
 Error : TypeError: this.isZero is not a function
+
+
+                 [91m [39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m█[39m[96m█[39m[96m╗[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m╔[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m╚[39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m█[39m[95m█[39m[95m║[39m[95m [39m[94m [39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m [39m[91m╚[39m[91m═[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m╚[39m[95m═[39m[95m╝[39m[95m [39m[94m [39m[94m╚[39m[94m═[39m[94m╝[39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+
+
+
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m [39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m╔[39m[96m═[39m[96m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m╚[39m[95m═[39m[95m═[39m[95m═[39m[94m═[39m[94m═[39m[94m╝[39m[94m [39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m
+
+
+
+
+                 [91m [39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m█[39m[96m█[39m[96m╗[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m╔[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m╚[39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m█[39m[95m█[39m[95m║[39m[95m [39m[94m [39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m [39m[91m╚[39m[91m═[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m╚[39m[95m═[39m[95m╝[39m[95m [39m[94m [39m[94m╚[39m[94m═[39m[94m╝[39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+
+
+
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m [39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m╔[39m[96m═[39m[96m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m╚[39m[95m═[39m[95m═[39m[95m═[39m[94m═[39m[94m═[39m[94m╝[39m[94m [39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m
+
+
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:32:37 f do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 6746.webp
+Error : TypeError: this.isZero is not a function
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:33:33 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:33:37 f do leke 556194007995 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5137.webp
+Finish
+ERROR [2021-03-28 19:33:39.613 +0000] (11599): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:33:42 menu do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:34:39 menu do leke 5518996206500 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:34:55 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:35:15 tss do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 2
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:35:36 tts do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 2
+Error : Error: Language not supported: pts
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:35:43 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:35:53 tts do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 2
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:36:05 f do leke 556194007995 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 1853.webp
+Finish
+ERROR [2021-03-28 19:36:07.509 +0000] (11599): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:36:09 Message do leke 556194007995 args : 0
+[ERROR] eita bixo comando não registrado de 556194007995
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:36:19 tts do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 3
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:37:43 tts do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 2
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:37:46 Message do leke 556391037950 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556391037950
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 02:38:16 f do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5907.webp
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:38:22 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:38:27 Message do leke 557598293207 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 557598293207
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:38:29 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 02:38:30 Message do leke 554984095206 in ꪶ𝐒𝐋𝐗 | SHIT ĐĀĶ ꫂ 発ĐĀĶ args : 0
+[ERROR] eita bixo comando não registrado de 554984095206
+Finish
+ERROR [2021-03-28 19:38:35.117 +0000] (11599): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+
+
+                 [91m [39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m█[39m[96m█[39m[96m╗[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m╔[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m█[39m[91m█[39m[91m║[39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m╚[39m[91m█[39m[91m█[39m[91m█[39m[95m█[39m[95m█[39m[95m█[39m[95m╗[39m[95m [39m[95m█[39m[95m█[39m[95m║[39m[95m [39m[94m [39m[94m█[39m[94m█[39m[94m║[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m║[39m[97m [39m
+                 [91m [39m[91m╚[39m[91m═[39m[91m═[39m[95m═[39m[95m═[39m[95m═[39m[95m╝[39m[95m [39m[95m╚[39m[95m═[39m[95m╝[39m[95m [39m[94m [39m[94m╚[39m[94m═[39m[94m╝[39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+
+
+
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╗[39m[94m [39m[96m [39m[96m [39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m╔[39m[96m═[39m[96m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╗[39m[97m [39m[97m╚[39m[97m═[39m[97m═[39m[97m█[39m[97m█[39m[97m╔[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m╔[39m[95m═[39m[94m═[39m[94m█[39m[94m█[39m[94m╗[39m[96m [39m[96m█[39m[96m█[39m[96m║[39m[96m [39m[96m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m█[39m[95m█[39m[95m█[39m[95m█[39m[94m█[39m[94m█[39m[94m╔[39m[94m╝[39m[96m [39m[96m╚[39m[96m█[39m[96m█[39m[96m█[39m[96m█[39m[97m█[39m[97m█[39m[97m╔[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m█[39m[97m█[39m[97m║[39m[97m [39m[97m [39m[97m [39m[97m [39m
+                 [91m [39m[91m [39m[91m [39m[91m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m [39m[95m╚[39m[95m═[39m[95m═[39m[95m═[39m[94m═[39m[94m═[39m[94m╝[39m[94m [39m[96m [39m[96m [39m[96m╚[39m[96m═[39m[96m═[39m[96m═[39m[97m═[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m[97m [39m[97m╚[39m[97m═[39m[97m╝[39m[97m [39m[97m [39m[97m [39m[97m [39m
+
+
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:57:34 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:58:30 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 07:58:49 promover do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:58:58 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:59:21 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 07:59:39 menu do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:59:45 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:59:50 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 07:59:56 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:00:06 toimg do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:00:24 toimg do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:00:28 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:00:59 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:05 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:11 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:20 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:20 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:29 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:32 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:39 Message do leke 5511993363475 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511993363475
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:42 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:42 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:44 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:01:49 lolih do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:49 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:51 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+Error : TypeError [ERR_INVALID_ARG_TYPE]: The "url" argument must be of type string. Received undefined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:55 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:01:56 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:02:17 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:02:33 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:02:37 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:02:44 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:02:54 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:03:18 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:03:27 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:03:38 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:07 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:09 Message do leke 5514997518355 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5514997518355
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:04:15 gay do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:04:18 clonar do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:32 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:37 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:45 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:46 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:04:49 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:04:57 clonar do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:05:01 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:05:02 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:05:04 clonar do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:05:23 menu do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:05:25 Message do leke 556899415498 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556899415498
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:05:44 conteudo do leke 5514997518355 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5514997518355
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:05:47 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:06 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:08 brainly do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 4
+Error : ReferenceError: brainly is not defined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:09 Message do leke 552165595993 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 552165595993
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:09 bug do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:09 belo* do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:14 toimg do leke 552165595993 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:15 neko* do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:16 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:22 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:23 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:24 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:29 gay do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:31 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:39 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:41 brainly do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Error : ReferenceError: brainly is not defined
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:06:45 bug do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:06:53 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:04 bug do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:06 gay do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:07 bug do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:07:08 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:07:09 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:21 brainly do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 4
+Error : ReferenceError: brainly is not defined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:07:23 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:45 gay do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:46 gay do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:07:46 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:07:46 clonar do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:07:59 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:00 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:08:21 gay do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:28 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:08:50 toimg do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:54 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:55 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:56 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:08:57 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:09:12 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:09:30 clonar do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:09:42 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:09:43 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:09:49 gay do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:09:56 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:09:58 clonar do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:10:01 toimg do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:01 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:03 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:03 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+Error : TypeError: this.isZero is not a function
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:10:23 gay do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 2
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:23 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:44 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:44 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:10:50 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:13 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:13 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:14 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:43 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:43 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:51 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:53 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:11:55 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:12:14 Message do leke 5515991503977 args : 0
+[ERROR] eita bixo comando não registrado de 5515991503977
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:12:27 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:12:33 gay do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:12:36 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:12:47 url2img do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:12:50 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:02 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:02 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:02 Message do leke 556592988690 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556592988690
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:02 Message do leke 557996879333 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 557996879333
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:10 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:10 Message do leke 557996879333 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 557996879333
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:13:19 meme do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:13:41 gay do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:13:48 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:05 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:10 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:29 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:29 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:14:41 f do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:43 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 4290.webp
+Finish
+ERROR [2021-03-29 01:14:44.854 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:45 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:14:51 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:00 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:03 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:15:05 meme do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:15:08 bomdia do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:19 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:15:28 gay do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:15:28 vaitomarnocubotdesgracado do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:46 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:46 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:49 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:54 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:15:59 Message do leke 14325475448 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 14325475448
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:00 Message do leke 14325475448 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 14325475448
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:16:04 meme do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:16:07 meme do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:21 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:43 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:43 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:43 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:16:43 hentai do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:49 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:16:49 meme do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:16:49 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:02 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 556892287073 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556892287073
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:36 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:37 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:17:55 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:03 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:05 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:25 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:25 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:42 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:43 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:47 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:18:59 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:10 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:37 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:37 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:37 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:37 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:50 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:19:52 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+Error : TypeError: Cannot read property 'startsWith' of undefined
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:20:00 figu do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 455.webp
+Finish
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:20:05 figu do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:20:07 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5819.webp
+Finish
+ERROR [2021-03-29 01:20:08.682 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:20:15 Message do leke 50433017402 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 50433017402
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:20:51 meme do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:26:17 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:27:28 Message do leke 559391402775 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559391402775
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:28:25 antiracismo do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:28:31 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:28:34 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:28:53 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:28:56 Message do leke 5521986804872 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5521986804872
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:28:58 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:01 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:06 Message do leke 5521986804872 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5521986804872
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:23 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:24 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:26 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:37 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:42 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:48 Message do leke 5521986804872 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5521986804872
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:29:59 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:30:00 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:30:08 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:30:33 Message do leke 14313013210 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 14313013210
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:30:34 antirasismo do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:30:48 Message do leke 5511941035193 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511941035193
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:30:49 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:08 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:08 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:08 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:08 Message do leke 5521986804872 args : 0
+[ERROR] eita bixo comando não registrado de 5521986804872
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:31:08 antiracismo do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:08 Message do leke 5521986804872 args : 0
+[ERROR] eita bixo comando não registrado de 5521986804872
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:31:11 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:31:13 antiracismo do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:31:34 antilink do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:32:16 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:32:22 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:35:29 gay do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:35:39 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:35:53 Message do leke 558588968820 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 558588968820
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:37:49 menu do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:39:00 boanoite do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:39:10 firetext do leke 552165595993 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 3
+Error : FetchError: invalid json response body at https://zeksapi.herokuapp.com/api/tlight?text=xt%20AIN%20NOBRO%20APELÓ&apikey=xptnbot352 reason: Unexpected token < in JSON at position 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:40:35 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:40:40 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:41:17 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:41:39 Message do leke 15303587596 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15303587596
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:41:41 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:41:45 Message do leke 554792091566 args : 0
+[ERROR] eita bixo comando não registrado de 554792091566
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:41:56 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:04 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:07 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:14 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:14 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:17 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:27 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:29 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:36 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:37 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:38 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:39 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:47:52 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:07 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:48:08 fig do leke 556295617761 args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 8536.webp
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:22 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:36 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:45 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:51 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:48:58 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:49:03 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:49:07 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:49:14 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:49:17 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:49:43 Message do leke 5518997480024 in . args : 0
+[ERROR] eita bixo comando não registrado de 5518997480024
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:50:10 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:02 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:05 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:09 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:18 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:25 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:51:33 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:52:09 glub do leke 556295617761 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:09 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:33 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:33 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:37 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:42 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:42 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:46 Message do leke 556295617761 args : 0
+[ERROR] eita bixo comando não registrado de 556295617761
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:52:50 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:53:01 Message do leke 5511998115650 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:53:37 fig do leke 5517997946542 in Nada de mais args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:54:54 fig do leke 556295617761 args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 37.webp
+Error : TypeError: this.isZero is not a function
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:55:19 Message do leke 5518996206500 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:55:28 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:55:32 Message do leke 554999467933 in 🚯 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:56:39 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:56:49 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:56:50 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:56:55 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:08 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:10 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:10 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:14 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:21 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:23 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:27 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:29 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:33 Message do leke 5511998115650 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511998115650
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:35 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:37 Message do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5518996206500
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:48 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:57:49 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:58:01 fig do leke 556295617761 args : 0
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:58:36 fig do leke 556295617761 args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 2713.webp
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:41 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+Finish
+ERROR [2021-03-29 01:58:49.522 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:51 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:52 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:53 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:53 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:54 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:58:57 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:02 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:02 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:03 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:03 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:04 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:04 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:05 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:05 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:06 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:06 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:06 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:59:14 menu do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:22 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:30 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:59:31 gay do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:50 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 08:59:55 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 08:59:58 hentai do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:02 Message do leke 554999467933 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 554999467933
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:20 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:23 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:00:27 porno do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:33 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:50 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:00:50 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:01:01 figu do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 4619.webp
+Finish
+ERROR [2021-03-29 02:01:03.633 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:07 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:17 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:24 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:27 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:47 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:01:56 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:05 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:08 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:14 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:14 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:17 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:22 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:24 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:02:34 musica do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:45 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:47 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:47 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:02:57 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:03:04 figu do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5321.webp
+Finish
+ERROR [2021-03-29 02:03:05.509 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:03:12 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:03:34 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 729.webp
+Finish
+ERROR [2021-03-29 02:03:35.133 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (RequestError: ENOENT: no such file or directory, open '/data/data/com.termux/files/usr/tmp/stickerMessage3EB009D89848.enc') , retrying...
+    class: "Baileys"
+ERROR [2021-03-29 02:03:35.796 +0000] (32243): Error in uploading to media-gru1-1.cdn.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:03:48 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:03:55 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:04 Message do leke 5519988305928 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5519988305928
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:18 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:19 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:23 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:04:32 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 38.webp
+Finish
+ERROR [2021-03-29 02:04:34.518 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:36 Message do leke 5519988305928 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5519988305928
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:04:36 Message do leke 5511993496946 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511993496946
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:14 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:14 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:14 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:26 Message do leke 559984761124 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 559984761124
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:38 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:53 Message do leke 556598070379 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 556598070379
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:05:54 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:05:54 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 5350.webp
+Finish
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:06:06 promover do leke 5518996206500 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 1
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:06:23 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:06:23 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:06:25 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:06:25 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:06:53 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:06:56 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:07:04 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:07:12 Message do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511964444412
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:07:25 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -i ./undefined.jpeg -i undefined.jpeg -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 7160.webp
+Finish
+ERROR [2021-03-29 02:07:28.224 +0000] (32243): Error in uploading to media.fppb6-1.fna.whatsapp.net (HTTPError: Response code 415 (Unsupported Media Type)) , retrying...
+    class: "Baileys"
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:07:30 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+Error : TypeError: Cannot read property 'startsWith' of undefined
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:07:44 Message do leke 15137435708 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 15137435708
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:08:02 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
+[1;31m~[1;37m> [[1;32mEXEC[1;37m] 29/03 09:08:34 figu do leke 5511964444412 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+Started : ffmpeg -f mp4 -i ./undefined.mp4 -y -vcodec libwebp -vf scale='min(320,iw)':min'(320,ih)':force_original_aspect_ratio=decrease,fps=15, pad=320:320:-1:-1:color=white@0.0, split [a][b]; [a] palettegen=reserve_transparent=on:transparency_color=ffffff [p]; [b][p] paletteuse -f webp 555.webp
+Error : TypeError: this.isZero is not a function
+[1;31m~[1;37m> [[1;31mRECV[1;37m] 29/03 09:08:39 Message do leke 5511972582183 in ꪶ𝐒𝐋𝐗 | SHITꫂ 発 args : 0
+[ERROR] eita bixo comando não registrado de 5511972582183
